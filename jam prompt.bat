@@ -4,7 +4,6 @@
 ::                           ::
 :::::::::::::::::::::::::::::::
 @echo off
-color 7
 :start
 title Jam prompt - [ %cd% ]
 set "command="
