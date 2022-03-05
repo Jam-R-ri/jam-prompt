@@ -7,7 +7,8 @@
 color 7
 :start
 title Jam prompt - [ %cd% ]
-set /P command=[ %cd% ]  $: 
-%command%
 set "command="
+set /P command=[ %cd% ]  $: 
+:command_check
+%command%
 goto start
